@@ -1,2 +1,0 @@
-# runtrackjs
-Exercice sur Javascripts
