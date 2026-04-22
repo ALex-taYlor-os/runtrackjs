@@ -1,16 +1,12 @@
 function afficherJoursSemaines(week){
 
-    for()
-    
+    for(day of week){
+
+         console.log(day);
+    }    
 }
 
 
-let joursSemaines = ["lundi","mardi","mercredi","jeudi","vendredi","samedi","dimanche"];
+joursSemaines = ["lundi","mardi","mercredi","jeudi","vendredi","samedi","dimanche"];
 
-for (year of listYear){
-    console.log(year)
-    if(bisextile(year))
-        console.log("L'année est bisextile")
-    else    
-         console.log("L'année est commune")
-}
+afficherJoursSemaines(joursSemaines)
