@@ -1,19 +1,12 @@
-function fizzbuzz(){
+function afficherJoursSemaines(week){
 
-    for( i=1 ; i++; i<=6 ){
+    for(day of week){
 
-        if ( (i%3==0) && (i%5==0) ){
-            console.log("FizzBuzz");
-        }else if (i%5==0){
-            console.log("Buzz");
-        }else if (i%3==0){
-            console.log("Fizz");
-        }else{
-            console.log("");
-            }
+         console.log(day);
     }    
 }
 
 
+joursSemaines = ["lundi","mardi","mercredi","jeudi","vendredi","samedi","dimanche"];
 
-fizzbuzz()
+afficherJoursSemaines(joursSemaines)
