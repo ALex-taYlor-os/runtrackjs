@@ -1,5 +1,5 @@
 // Les mois dans le format Date commence à partir de 0 donc Janvier = 0
-function IsPremier(nombre) {
+function EstPremier(nombre) {
     if(nombre==0 || nombre==1) {
     return false;
   }
@@ -13,8 +13,8 @@ function IsPremier(nombre) {
 } 
 
 
-function Somme(nombre1, nombre2){
-  if(IsPremier(nombre1) && IsPremier(nombre2)){
+function sommeNombresPremiers(nombre1, nombre2){
+  if(EstPremier(nombre1) && EstPremier(nombre2)){
     return nombre1+nombre2;
   }else{
     return false;
@@ -22,5 +22,5 @@ function Somme(nombre1, nombre2){
 }
     
 
-console.log(Somme(7,5));//Je devrais avoir  12 comme résultat
-console.log(Somme(6,5));// Je devrais rien avoir
+console.log(sommeNombresPremiers(7,5));//Je devrais avoir  12 comme résultat
+console.log(sommeNombresPremiers(6,5));// Je devrais rien avoir
